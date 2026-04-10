@@ -8,12 +8,12 @@
 
 ## 演示截图
 
-![https://sanyuan.website/md-image/image1.png](https://sanyuan.website/images/image1.png)
-![https://sanyuan.website/md-image/image2.png](https://sanyuan.website/images/image2.png)
-![https://sanyuan.website/md-image/image3.png](https://sanyuan.website/images/image3.png)
-![https://sanyuan.website/md-image/image4.png](https://sanyuan.website/images/image4.png)
-![https://sanyuan.website/md-image/image5.png](https://sanyuan.website/images/image5.png)
-![https://sanyuan.website/md-image/image6.png](https://sanyuan.website/images/image6.png)
+![https://sanyuan.website/md-image/image1.png](https://sanyuan.website/md-image/image1.png)
+![https://sanyuan.website/md-image/image2.png](https://sanyuan.website/md-image/image2.png)
+![https://sanyuan.website/md-image/image3.png](https://sanyuan.website/md-image/image3.png)
+![https://sanyuan.website/md-image/image4.png](https://sanyuan.website/md-image/image4.png)
+![https://sanyuan.website/md-image/image5.png](https://sanyuan.website/md-image/image5.png)
+![https://sanyuan.website/md-image/image6.png](https://sanyuan.website/md-image/image6.png)
 
 ## 功能介绍
 
