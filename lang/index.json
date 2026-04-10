@@ -1,0 +1,1342 @@
+{
+	"qylb2": {
+		"zh-cn": "首页",
+		"en": "Home Page"
+	},
+	"jk4m2": {
+		"zh-cn": "演示",
+		"en": "Demonstration"
+	},
+	"cdxrpf4": {
+		"zh-cn": "异常页面",
+		"en": "Abnormal page"
+	},
+	"gao8uh4": {
+		"zh-cn": "系统管理",
+		"en": "System Management"
+	},
+	"f6y6dw4": {
+		"zh-cn": "用户管理",
+		"en": "User Management"
+	},
+	"hxhx7p4": {
+		"zh-cn": "角色管理",
+		"en": "Role Management"
+	},
+	"gzj3um4": {
+		"zh-cn": "菜单管理",
+		"en": "Menu Management"
+	},
+	"bv9v7q4": {
+		"zh-cn": "字典管理",
+		"en": "Dictionary management"
+	},
+	"bv601r4": {
+		"zh-cn": "字典数据",
+		"en": "Dictionary data"
+	},
+	"koca2": {
+		"zh-cn": "登录",
+		"en": "Log in"
+	},
+	"n1h356": {
+		"zh-cn": "三原管理系统",
+		"en": "Sanyuan Management System"
+	},
+	"hrya2": {
+		"zh-cn": "提醒",
+		"en": "Reminder"
+	},
+	"pjs3rj9": {
+		"zh-cn": "确定要退出登录吗？",
+		"en": "Are you sure you want to log out?"
+	},
+	"l9122": {
+		"zh-cn": "确认",
+		"en": "Confirm"
+	},
+	"ev022": {
+		"zh-cn": "取消",
+		"en": "Cancel"
+	},
+	"5mg7ak5": {
+		"zh-cn": "退出登录",
+		"en": "Log out"
+	},
+	"b5iutv6": {
+		"zh-cn": "简体中文",
+		"en": "简体中文"
+	},
+	"dqn1c4": {
+		"zh-cn": "固定",
+		"en": "Fixed"
+	},
+	"1z2h666": {
+		"zh-cn": "取消固定",
+		"en": "Cancel fixed"
+	},
+	"28id8b6": {
+		"zh-cn": "关闭左侧",
+		"en": "Close the left side"
+	},
+	"29ytv26": {
+		"zh-cn": "关闭右侧",
+		"en": "Close the right side"
+	},
+	"2ac37e6": {
+		"zh-cn": "关闭其他",
+		"en": "Turn off others"
+	},
+	"5rwom98": {
+		"zh-cn": "在新窗口打开",
+		"en": "Open in a new window"
+	},
+	"d7exy4": {
+		"zh-cn": "关闭",
+		"en": "Close"
+	},
+	"e56l2": {
+		"zh-cn": "主题",
+		"en": "Theme"
+	},
+	"ghwd2": {
+		"zh-cn": "布局",
+		"en": "Layout"
+	},
+	"eae82": {
+		"zh-cn": "其他",
+		"en": "Others"
+	},
+	"e1lnks4": {
+		"zh-cn": "水平布局",
+		"en": "Horizontal layout"
+	},
+	"p5h35y5": {
+		"zh-cn": "侧边栏布局",
+		"en": "Sidebar layout"
+	},
+	"e82p1q4": {
+		"zh-cn": "混合布局",
+		"en": "Mixed layout"
+	},
+	"bj7ykv4": {
+		"zh-cn": "垂直布局",
+		"en": "Vertical layout"
+	},
+	"ofsl2": {
+		"zh-cn": "谷歌",
+		"en": "Google"
+	},
+	"et522": {
+		"zh-cn": "卡片",
+		"en": "Card"
+	},
+	"bkv2mw4": {
+		"zh-cn": "复制成功",
+		"en": "Copy successfully"
+	},
+	"aifri64": {
+		"zh-cn": "偏好设置",
+		"en": "Preference Settings"
+	},
+	"ixe9xe4": {
+		"zh-cn": "重置配置",
+		"en": "Reset configuration"
+	},
+	"bl3cqy4": {
+		"zh-cn": "复制配置",
+		"en": "Copy configuration"
+	},
+	"gurej14": {
+		"zh-cn": "色弱模式",
+		"en": "Color weakness mode"
+	},
+	"eq5p5c4": {
+		"zh-cn": "灰色模式",
+		"en": "Grey mode"
+	},
+	"c76fp3": {
+		"zh-cn": "主题色",
+		"en": "Theme color"
+	},
+	"a538fb6": {
+		"zh-cn": "显示LOGO",
+		"en": "Display LOGO"
+	},
+	"c8wdij4": {
+		"zh-cn": "布局模式",
+		"en": "Layout pattern"
+	},
+	"gzc37b4": {
+		"zh-cn": "菜单分组",
+		"en": "Menu grouping"
+	},
+	"t7fj3u5": {
+		"zh-cn": "菜单分割线",
+		"en": "Menu divider"
+	},
+	"qi552": {
+		"zh-cn": "顶栏",
+		"en": "Top bar"
+	},
+	"deqgwl4": {
+		"zh-cn": "显示顶栏",
+		"en": "Display the top bar"
+	},
+	"bd2wjd4": {
+		"zh-cn": "固定顶栏",
+		"en": "Fixed top bar"
+	},
+	"jo961z4": {
+		"zh-cn": "顶栏高度",
+		"en": "Top bar height"
+	},
+	"fu3yw3": {
+		"zh-cn": "标签栏",
+		"en": "Tag bar"
+	},
+	"aova905": {
+		"zh-cn": "显示标签栏",
+		"en": "Display the TAB bar"
+	},
+	"ssqtra6": {
+		"zh-cn": "持久化标签栏",
+		"en": "Persistent TAB bar"
+	},
+	"3f5imy5": {
+		"zh-cn": "标签栏高度",
+		"en": "Height of the TAB bar"
+	},
+	"3fdsuy5": {
+		"zh-cn": "标签栏模式",
+		"en": "TAB bar mode"
+	},
+	"ascden5": {
+		"zh-cn": "显示侧边栏",
+		"en": "Display the sidebar"
+	},
+	"p5gcrf5": {
+		"zh-cn": "侧边栏折叠",
+		"en": "Sidebar fold"
+	},
+	"6rdw4y8": {
+		"zh-cn": "折叠后显示菜单名",
+		"en": "The menu name is displayed after folding"
+	},
+	"p5hgm25": {
+		"zh-cn": "侧边栏宽度",
+		"en": "Sidebar width"
+	},
+	"7t43mo8": {
+		"zh-cn": "折叠后侧边栏宽度",
+		"en": "The width of the sidebar after folding"
+	},
+	"gvsj2": {
+		"zh-cn": "底部",
+		"en": "Bottom"
+	},
+	"degujz4": {
+		"zh-cn": "显示底部",
+		"en": "Show the bottom"
+	},
+	"bcta6r4": {
+		"zh-cn": "固定底部",
+		"en": "Fixed bottom"
+	},
+	"cjfjep4": {
+		"zh-cn": "底部高度",
+		"en": "Bottom height"
+	},
+	"67qsup6": {
+		"zh-cn": "路由过渡动画",
+		"en": "Routing transition animation"
+	},
+	"ik91mia": {
+		"zh-cn": "内容已收起，点击展开",
+		"en": "The content has been collapsed. Click to expand"
+	},
+	"j6iw2": {
+		"zh-cn": "渐变",
+		"en": "Gradient"
+	},
+	"e8fwf64": {
+		"zh-cn": "渐变向下",
+		"en": "Gradually downward"
+	},
+	"e8fwf54": {
+		"zh-cn": "渐变向上",
+		"en": "Gradually upward"
+	},
+	"e8fzjx4": {
+		"zh-cn": "渐变向左",
+		"en": "Gradient to the left"
+	},
+	"k4g1": {
+		"zh-cn": "无",
+		"en": "no"
+	},
+	"2d2s6x5": {
+		"zh-cn": "访问被拒绝",
+		"en": "The access was denied"
+	},
+	"nr1d005": {
+		"zh-cn": "页面不存在",
+		"en": "The page does not exist."
+	},
+	"cgrhw65": {
+		"zh-cn": "服务器错误",
+		"en": "Server error"
+	},
+	"be8v0la": {
+		"zh-cn": "您没有权限访问此页面",
+		"en": "You do not have permission to access this page"
+	},
+	"cygl5q9": {
+		"zh-cn": "您访问的页面未找到",
+		"en": "The page you visited was not found"
+	},
+	"ffltbld": {
+		"zh-cn": "服务器开小差了，请稍后再试",
+		"en": "The server is off. Please try again later"
+	},
+	"iijhd54": {
+		"zh-cn": "返回首页",
+		"en": "Return to the homepage"
+	},
+	"d5b7ig4": {
+		"zh-cn": "搜索圆圈",
+		"en": "Search circle"
+	},
+	"d5d7tr4": {
+		"zh-cn": "搜索手柄",
+		"en": "Search handle"
+	},
+	"aw3f2k4": {
+		"zh-cn": "内部问号",
+		"en": "Internal question mark"
+	},
+	"fhnvzl4": {
+		"zh-cn": "盾牌背景",
+		"en": "Shield background"
+	},
+	"fhs7b34": {
+		"zh-cn": "盾牌高光",
+		"en": "Shield highlight"
+	},
+	"m928a3": {
+		"zh-cn": "锁图标",
+		"en": "Lock icon"
+	},
+	"ps362": {
+		"zh-cn": "锁体",
+		"en": "Lock body"
+	},
+	"pz9q2": {
+		"zh-cn": "锁环",
+		"en": "Lock ring"
+	},
+	"pugj2": {
+		"zh-cn": "锁孔",
+		"en": "Lock hole"
+	},
+	"dq5did5": {
+		"zh-cn": "装饰性光效",
+		"en": "Decorative light effect"
+	},
+	"azeh8z4": {
+		"zh-cn": "删除成功",
+		"en": "Deleted successfully"
+	},
+	"f6r81s4": {
+		"zh-cn": "用户列表",
+		"en": "User list"
+	},
+	"fvpaq4": {
+		"zh-cn": "新增",
+		"en": "New addition"
+	},
+	"mekb2": {
+		"zh-cn": "编辑",
+		"en": "Editor"
+	},
+	"l6kb0o6": {
+		"zh-cn": "确定删除吗?",
+		"en": "Are you sure to delete it?"
+	},
+	"kzjg2": {
+		"zh-cn": "确定",
+		"en": "Sure"
+	},
+	"eslg2": {
+		"zh-cn": "删除",
+		"en": "Delete"
+	},
+	"7grhuz6": {
+		"zh-cn": "请输入用户名",
+		"en": "Please enter your username"
+	},
+	"2j9vj05": {
+		"zh-cn": "请输入密码",
+		"en": "Please enter the password."
+	},
+	"d76ha54": {
+		"zh-cn": "新增成功",
+		"en": "Added successfully"
+	},
+	"gmjwui4": {
+		"zh-cn": "编辑成功",
+		"en": "Editing successful"
+	},
+	"hs6m2": {
+		"zh-cn": "新增",
+		"en": "New addition"
+	},
+	"hmxge3": {
+		"zh-cn": "用户名",
+		"en": "User name"
+	},
+	"g9ob2": {
+		"zh-cn": "密码",
+		"en": "Password"
+	},
+	"i6ozfm7": {
+		"zh-cn": "请输入登录密码",
+		"en": "Please enter your login password"
+	},
+	"ewbd43": {
+		"zh-cn": "手机号",
+		"en": "Mobile phone number"
+	},
+	"7ji3y96": {
+		"zh-cn": "请输入手机号",
+		"en": "Please enter your mobile phone number"
+	},
+	"padf2": {
+		"zh-cn": "邮箱",
+		"en": "Email"
+	},
+	"2j0utw5": {
+		"zh-cn": "请输入邮箱",
+		"en": "Please enter your email address."
+	},
+	"gt0k2": {
+		"zh-cn": "性别",
+		"en": "Gender"
+	},
+	"gxw02": {
+		"zh-cn": "年龄",
+		"en": "Age"
+	},
+	"o5pc2": {
+		"zh-cn": "角色",
+		"en": "Role"
+	},
+	"k1e32": {
+		"zh-cn": "状态",
+		"en": "Status"
+	},
+	"fqo12": {
+		"zh-cn": "备注",
+		"en": "Remarks"
+	},
+	"2jaeja5": {
+		"zh-cn": "请输入备注",
+		"en": "Please enter the remarks"
+	},
+	"ar7uqh4": {
+		"zh-cn": "创建日期",
+		"en": "Creation date"
+	},
+	"hkxb2": {
+		"zh-cn": "操作",
+		"en": "Operation"
+	},
+	"eymx2": {
+		"zh-cn": "启用",
+		"en": "Enabled"
+	},
+	"lb5z2": {
+		"zh-cn": "禁用",
+		"en": "Disabled"
+	},
+	"n5j1": {
+		"zh-cn": "男",
+		"en": "male"
+	},
+	"ho31": {
+		"zh-cn": "女",
+		"en": "female"
+	},
+	"l6wdl3": {
+		"zh-cn": "请输入",
+		"en": "Please enter"
+	},
+	"l72nr3": {
+		"zh-cn": "请选择",
+		"en": "Please select"
+	},
+	"cd0ag54": {
+		"zh-cn": "开始日期",
+		"en": "Start date"
+	},
+	"gfhy2u4": {
+		"zh-cn": "结束日期",
+		"en": "End date"
+	},
+	"gg26b4": {
+		"zh-cn": "查询",
+		"en": "Query"
+	},
+	"miwv34": {
+		"zh-cn": "重置",
+		"en": "Reset"
+	},
+	"hzpd2": {
+		"zh-cn": "收起",
+		"en": "Collapse"
+	},
+	"g85n2": {
+		"zh-cn": "展开",
+		"en": "Unfold"
+	},
+	"6wvw9kb": {
+		"zh-cn": "登录已过期，请重新登录",
+		"en": "Your login has expired. Please log in again"
+	},
+	"r9a3myc": {
+		"zh-cn": "请求被取消，请勿重复提交",
+		"en": "The request has been cancelled. Please do not resubmit"
+	},
+	"i3trb34": {
+		"zh-cn": "请求失败",
+		"en": "Request failed"
+	},
+	"uel0iza": {
+		"zh-cn": "网络错误，请稍后重试",
+		"en": "Network error. Please try again later"
+	},
+	"38ywoh6": {
+		"zh-cn": "请求参数错误",
+		"en": "Request parameter error"
+	},
+	"gg79ok6": {
+		"zh-cn": "没有权限访问",
+		"en": "No permission to access"
+	},
+	"xmqreg8": {
+		"zh-cn": "请求的资源不存在",
+		"en": "The requested resource does not exist"
+	},
+	"g8mhnx7": {
+		"zh-cn": "服务器内部错误",
+		"en": "Internal server error"
+	},
+	"2f7fob6": {
+		"zh-cn": "请求失败:",
+		"en": "Request failed"
+	},
+	"ki5iprc": {
+		"zh-cn": "网络连接失败，请检查网络",
+		"en": "The network connection failed. Please check the network"
+	},
+	"j6nh9i6": {
+		"zh-cn": "取消所有请求",
+		"en": "Cancel all requests"
+	},
+	"fcewjt4": {
+		"zh-cn": "登录成功",
+		"en": "Login successful"
+	},
+	"b7gq495": {
+		"zh-cn": "欢迎回来，",
+		"en": "Welcome back"
+	},
+	"i5rv634": {
+		"zh-cn": "账号登录",
+		"en": "Account login"
+	},
+	"6rcs12d": {
+		"zh-cn": "请使用您的账号密码登录系统",
+		"en": "Please log in to the system with your account and password"
+	},
+	"hyc3iy4": {
+		"zh-cn": "记住密码",
+		"en": "Remember the password"
+	},
+	"xfgztg5": {
+		"zh-cn": "忘记密码？",
+		"en": "Forgot password?"
+	},
+	"q9q27m6": {
+		"zh-cn": "还没有账号？",
+		"en": "Don't have an account yet?"
+	},
+	"fub0ks4": {
+		"zh-cn": "立即注册",
+		"en": "Register now"
+	},
+	"dsidu3": {
+		"zh-cn": "安全1",
+		"en": "Safety 1"
+	},
+	"chhlv3": {
+		"zh-cn": "办公1",
+		"en": "Office 1"
+	},
+	"chhlw3": {
+		"zh-cn": "办公2",
+		"en": "Office 2"
+	},
+	"chhlx3": {
+		"zh-cn": "办公3",
+		"en": "Office 3"
+	},
+	"chhly3": {
+		"zh-cn": "办公4",
+		"en": "Office 4"
+	},
+	"cp1p03": {
+		"zh-cn": "厂房1",
+		"en": "Factory Building 1"
+	},
+	"gkupz3": {
+		"zh-cn": "流程1",
+		"en": "Process 1"
+	},
+	"gkuq03": {
+		"zh-cn": "流程2",
+		"en": "Process 2"
+	},
+	"fmaq63": {
+		"zh-cn": "智能1",
+		"en": "Intelligence 1"
+	},
+	"fmaq73": {
+		"zh-cn": "智能2",
+		"en": "Smart 2"
+	},
+	"fmaq83": {
+		"zh-cn": "智能3",
+		"en": "Smart 3"
+	},
+	"fmaq93": {
+		"zh-cn": "智能4",
+		"en": "Smart 4"
+	},
+	"hxayvl4": {
+		"zh-cn": "角色列表",
+		"en": "Character list"
+	},
+	"hxb80z4": {
+		"zh-cn": "角色名称",
+		"en": "Character name"
+	},
+	"flrstw7": {
+		"zh-cn": "请输入角色名称",
+		"en": "Please enter the role name"
+	},
+	"dnc7a44": {
+		"zh-cn": "权限字符",
+		"en": "Permission character"
+	},
+	"jvqtkr7": {
+		"zh-cn": "请输入权限字符",
+		"en": "Please enter the permission character"
+	},
+	"hge52": {
+		"zh-cn": "排序",
+		"en": "Sorting"
+	},
+	"gzftwm4": {
+		"zh-cn": "菜单权限",
+		"en": "Menu permission"
+	},
+	"yqdorl7": {
+		"zh-cn": "请选择父级菜单",
+		"en": "Please select the parent menu"
+	},
+	"deqf4h4": {
+		"zh-cn": "显示顺序",
+		"en": "Display sequence"
+	},
+	"gzc5ii4": {
+		"zh-cn": "菜单列表",
+		"en": "Menu list"
+	},
+	"gzcenw4": {
+		"zh-cn": "菜单名称",
+		"en": "Menu name"
+	},
+	"gzj3ft4": {
+		"zh-cn": "菜单类型",
+		"en": "Menu type"
+	},
+	"dneg984": {
+		"zh-cn": "权限标识",
+		"en": "Permission identifier"
+	},
+	"gbuf8n4": {
+		"zh-cn": "组件路径",
+		"en": "Component path"
+	},
+	"kr3b2": {
+		"zh-cn": "目录",
+		"en": "Directory"
+	},
+	"mvw92": {
+		"zh-cn": "菜单",
+		"en": "Menu"
+	},
+	"hnt12": {
+		"zh-cn": "按钮",
+		"en": "Button"
+	},
+	"k6n1": {
+		"zh-cn": "是",
+		"en": "is"
+	},
+	"gme1": {
+		"zh-cn": "否",
+		"en": "no"
+	},
+	"dix6vu7": {
+		"zh-cn": "AntV 图标",
+		"en": "AntV icon"
+	},
+	"xxk99z7": {
+		"zh-cn": "本地SVG图标",
+		"en": "Local SVG icon"
+	},
+	"2j8ot65": {
+		"zh-cn": "请输入排序",
+		"en": "Please enter the sorting"
+	},
+	"gjqm6z7": {
+		"zh-cn": "请输入菜单名称",
+		"en": "Please enter the menu name"
+	},
+	"c19cy3": {
+		"zh-cn": "主目录",
+		"en": "Main directory"
+	},
+	"adj5w64": {
+		"zh-cn": "上级菜单",
+		"en": "Superior menu"
+	},
+	"gzct4y4": {
+		"zh-cn": "菜单图标",
+		"en": "Menu icon"
+	},
+	"y95ghz7": {
+		"zh-cn": "请选择菜单图标",
+		"en": "Please select the menu icon"
+	},
+	"dehf5l4": {
+		"zh-cn": "显示排序",
+		"en": "Display sorting"
+	},
+	"k4llpa7": {
+		"zh-cn": "请输入显示排序",
+		"en": "Please enter the display sort"
+	},
+	"ie1p9h4": {
+		"zh-cn": "路由名称",
+		"en": "Route name"
+	},
+	"f51ble7": {
+		"zh-cn": "请输入路由名称",
+		"en": "Please enter the route name"
+	},
+	"d8qugv4": {
+		"zh-cn": "是否外链",
+		"en": "Is it an external link?"
+	},
+	"ie21ma4": {
+		"zh-cn": "路由地址",
+		"en": "Routing address"
+	},
+	"f50z8l7": {
+		"zh-cn": "请输入路由地址",
+		"en": "Please enter the routing address"
+	},
+	"h78lm87": {
+		"zh-cn": "请输入组件路径",
+		"en": "Please enter the component path"
+	},
+	"ie1jf44": {
+		"zh-cn": "路由参数",
+		"en": "Routing parameter"
+	},
+	"f51hfr7": {
+		"zh-cn": "请输入路由参数",
+		"en": "Please enter the routing parameters"
+	},
+	"d8wzp84": {
+		"zh-cn": "是否缓存",
+		"en": "Whether to cache"
+	},
+	"jm12z4": {
+		"zh-cn": "缓存",
+		"en": "Cache"
+	},
+	"av1de65": {
+		"zh-cn": "不缓存",
+		"en": "No cache"
+	},
+	"dek05j4": {
+		"zh-cn": "显示状态",
+		"en": "Display status"
+	},
+	"g469w4": {
+		"zh-cn": "显示",
+		"en": "Display"
+	},
+	"arjil35": {
+		"zh-cn": "不显示",
+		"en": "Not displayed"
+	},
+	"u4muhq6": {
+		"zh-cn": "字典类型列表",
+		"en": "List of dictionary types"
+	},
+	"bvah644": {
+		"zh-cn": "字典编码",
+		"en": "Dictionary encoding"
+	},
+	"bv36104": {
+		"zh-cn": "字典名称",
+		"en": "Dictionary name"
+	},
+	"lnsjor7": {
+		"zh-cn": "请输入字典编码",
+		"en": "Please enter the dictionary code"
+	},
+	"lnzutv7": {
+		"zh-cn": "请输入字典名称",
+		"en": "Please enter the name of the dictionary"
+	},
+	"dlh5cn4": {
+		"zh-cn": "暗黑主题",
+		"en": "Dark theme"
+	},
+	"ecpz2": {
+		"zh-cn": "全屏",
+		"en": "Full screen"
+	},
+	"ii96jl4": {
+		"zh-cn": "退出全屏",
+		"en": "Exit full screen"
+	},
+	"d0p9235": {
+		"zh-cn": "这里是首页",
+		"en": "This is the homepage."
+	},
+	"27k1ha6": {
+		"zh-cn": "加载中...",
+		"en": "Loading..."
+	},
+	"9iko2ni": {
+		"zh-cn": "这里是AI Chat, 待实现...",
+		"en": "This is AI Chat, yet to be implemented..."
+	},
+	"o0kqzsc": {
+		"zh-cn": "这里是首页,待实现...",
+		"en": "This is the homepage. To be implemented..."
+	},
+	"8432oc9": {
+		"zh-cn": "混合布局（待实现）",
+		"en": "Hybrid layout (to be implemented"
+	},
+	"9za4x79": {
+		"zh-cn": "垂直布局（待实现）",
+		"en": "Vertical layout (to be implemented"
+	},
+	"ed8ep44": {
+		"zh-cn": "",
+		"en": ""
+	},
+	"fcfmmk4": {
+		"zh-cn": "登录日志",
+		"en": "Login log"
+	},
+	"db22k4": {
+		"zh-cn": "删除",
+		"en": "Delete"
+	},
+	"h9ea34": {
+		"zh-cn": "清空",
+		"en": "Clear"
+	},
+	"efepu4": {
+		"zh-cn": "导出",
+		"en": "Export"
+	},
+	"fcd2ve4": {
+		"zh-cn": "登录地址",
+		"en": "Login address"
+	},
+	"fcfxq04": {
+		"zh-cn": "登录时间",
+		"en": "Login time"
+	},
+	"i93v8w4": {
+		"zh-cn": "访问编号",
+		"en": "Access number"
+	},
+	"f6rh764": {
+		"zh-cn": "用户名称",
+		"en": "User name"
+	},
+	"fcd7wj4": {
+		"zh-cn": "登录地点",
+		"en": "Login location"
+	},
+	"goai73": {
+		"zh-cn": "浏览器",
+		"en": "Browser"
+	},
+	"d1xjg34": {
+		"zh-cn": "操作系统",
+		"en": "Operating system"
+	},
+	"fcht514": {
+		"zh-cn": "登录状态",
+		"en": "Login status"
+	},
+	"d1pp994": {
+		"zh-cn": "操作信息",
+		"en": "Operation information"
+	},
+	"fcfo2c4": {
+		"zh-cn": "登录日期",
+		"en": "Login date"
+	},
+	"d1tfy94": {
+		"zh-cn": "操作日志",
+		"en": "Operation log"
+	},
+	"is6t2": {
+		"zh-cn": "正常",
+		"en": "Normal"
+	},
+	"eb7w2": {
+		"zh-cn": "停用",
+		"en": "Deactivated"
+	},
+	"d1qw734": {
+		"zh-cn": "操作地址",
+		"en": "Operation address"
+	},
+	"gal40q4": {
+		"zh-cn": "系统模块",
+		"en": "System module"
+	},
+	"d1pft94": {
+		"zh-cn": "操作人员",
+		"en": "Operator"
+	},
+	"lnjk2": {
+		"zh-cn": "类型",
+		"en": "Type"
+	},
+	"ar84e54": {
+		"zh-cn": "创建时间",
+		"en": "Creation time"
+	},
+	"d9bcmr4": {
+		"zh-cn": "日志编号",
+		"en": "Log number"
+	},
+	"d1x8m74": {
+		"zh-cn": "操作类型",
+		"en": "Operation type"
+	},
+	"d1r1884": {
+		"zh-cn": "操作地点",
+		"en": "Operation location"
+	},
+	"d1vmgq4": {
+		"zh-cn": "操作状态",
+		"en": "Operation status"
+	},
+	"d1the14": {
+		"zh-cn": "操作日期",
+		"en": "Operation date"
+	},
+	"eclt3h4": {
+		"zh-cn": "消耗时间",
+		"en": "Consume time"
+	},
+	"obrz2": {
+		"zh-cn": "详情",
+		"en": "For details"
+	},
+	"uxaen36": {
+		"zh-cn": "操作日志详细",
+		"en": "Detailed operation log"
+	},
+	"bj2gbl4": {
+		"zh-cn": "基本操作",
+		"en": "Basic operations"
+	},
+	"yp4m2n8": {
+		"zh-cn": "操作日志详细",
+		"en": "Detailed operation log"
+	},
+	"huvm2": {
+		"zh-cn": "日志",
+		"en": "Log"
+	},
+	"lzua2": {
+		"zh-cn": "组件",
+		"en": "Component"
+	},
+	"uxakkg6": {
+		"zh-cn": "操作日志详情",
+		"en": "Details of the operation log"
+	},
+	"biyzkw4": {
+		"zh-cn": "基本信息",
+		"en": "Basic information"
+	},
+	"d1u4794": {
+		"zh-cn": "操作模块",
+		"en": "Operation module"
+	},
+	"a7c0hj4": {
+		"zh-cn": "业务类型",
+		"en": "Business type"
+	},
+	"d1tr1p4": {
+		"zh-cn": "操作时间",
+		"en": "Operation time"
+	},
+	"czbssw4": {
+		"zh-cn": "执行状态",
+		"en": "\"Execution status\""
+	},
+	"cscota4": {
+		"zh-cn": "所属部门",
+		"en": "Department to which"
+	},
+	"fi7ocd4": {
+		"zh-cn": "研发部门",
+		"en": "Research and Development Department"
+	},
+	"ds1i91k": {
+		"zh-cn": "114.224.38.67 江苏 无锡市",
+		"en": "114.224.38.67 Wuxi City, Jiangsu Province"
+	},
+	"i3rxg94": {
+		"zh-cn": "请求信息",
+		"en": "Request information"
+	},
+	"i3t4e34": {
+		"zh-cn": "请求地址",
+		"en": "Request address"
+	},
+	"d1thgr4": {
+		"zh-cn": "操作方法",
+		"en": "Operation method"
+	},
+	"j0w72": {
+		"zh-cn": "毫秒",
+		"en": "Milliseconds"
+	},
+	"i3sm6x4": {
+		"zh-cn": "请求参数",
+		"en": "Request parameters"
+	},
+	"ii7bp44": {
+		"zh-cn": "返回参数",
+		"en": "Return parameter"
+	},
+	"g0csmr5": {
+		"zh-cn": "（无数据）",
+		"en": "(No data available"
+	},
+	"wzitow6": {
+		"zh-cn": "字典数据列表",
+		"en": "Dictionary data list"
+	},
+	"kbf5mq7": {
+		"zh-cn": "请输入数据标签",
+		"en": "Please enter the data label"
+	},
+	"kb7por7": {
+		"zh-cn": "请输入数据键值",
+		"en": "Please enter the data key value"
+	},
+	"bv9usx4": {
+		"zh-cn": "字典类型",
+		"en": "Dictionary type"
+	},
+	"d7nv854": {
+		"zh-cn": "数据标签",
+		"en": "Data tag"
+	},
+	"d7vb644": {
+		"zh-cn": "数据键值",
+		"en": "Data key value"
+	},
+	"qrl6zs1s": {
+		"zh-cn": "默认不填则和路由地址相同：如地址为：`user`，则名称为`User`（注意：为避免名字的冲突，特殊情况下请自定义，保证唯一性）",
+		"en": "If left blank by default, it will be the same as the routing address: for example, if the address is' user ', the name will be 'User' (Note: To avoid name conflicts, please customize in special cases to ensure uniqueness)."
+	},
+	"gzu6tcr": {
+		"zh-cn": "选择是外链则路由地址需要以`http(s)://`开头",
+		"en": "If the option is an external link, the routing address needs to start with 'http(s)://'"
+	},
+	"3arbyn17": {
+		"zh-cn": "访问的路由地址，如：`user`，如外网地址需内链访问则以`http(s)://`开头",
+		"en": "The accessed routing address, such as' user ', starts with 'http(s)://' if an external network address needs to be accessed internally"
+	},
+	"9dmcs17": {
+		"zh-cn": "访问的组件路径，如：`system/user/index`，默认在`views`目录下",
+		"en": "The paths of the accessed components, such as' system/user/index ', are by default in the 'views' directory"
+	},
+	"f1wa83i": {
+		"zh-cn": "如用户中心:system:user",
+		"en": "For example, user center :system:user"
+	},
+	"tn73ddj": {
+		"zh-cn": "配置权限字符如system:user",
+		"en": "Configure permission characters such as system:user"
+	},
+	"2tu28f13": {
+		"zh-cn": "访问路由的默认传递参数，如：`{\"id\": 1, \"name\": \"ry\"}`",
+		"en": "Access the default passed parameters of the route, such as: '{\"id\": 1, \"name\": \"ry\"}'"
+	},
+	"bnbamh18": {
+		"zh-cn": "访问路由的默认传递参数，如：`{\"id\": 1, \"name\": \"sanyuan\"}`",
+		"en": "Access the default passed parameters of the route, such as: '{\"id\": 1, \"name\": \"sanyuan\"}'"
+	},
+	"22v1il15": {
+		"zh-cn": "选择是则会被`keep-alive`缓存，需要匹配组件的`name`和地址保持一致",
+		"en": "If yes is selected, it will be cached by 'keep-alive', and the 'name' and address of the matching component need to be consistent"
+	},
+	"ossdquo": {
+		"zh-cn": "选择隐藏则路由将不会出现在侧边栏，但仍然可以访问",
+		"en": "If you choose to hide, the route will not appear in the sidebar, but it can still be accessed"
+	},
+	"fvz0egn": {
+		"zh-cn": "选择停用则路由将不会出现在侧边栏，也不能被访问",
+		"en": "If you choose to disable it, the route will not appear in the sidebar and cannot be accessed"
+	},
+	"gzhhac4": {
+		"zh-cn": "菜单状态",
+		"en": "Menu status"
+	},
+	"pttxd81b": {
+		"zh-cn": "访问的组件路径，如：`system/user/index.vue`，默认在`views`目录下",
+		"en": "The paths of the accessed components, such as' system/user/index.vue ', are by default in the 'views' directory"
+	},
+	"ie4hebk": {
+		"zh-cn": "这里是经过keep-alive缓存的页面",
+		"en": "This is the page cached by keep-alive"
+	},
+	"mkluyw7": {
+		"zh-cn": "菜单名称(中)",
+		"en": "Menu Name (Middle)"
+	},
+	"mkuu2s7": {
+		"zh-cn": "菜单名称(英)",
+		"en": "Menu Name (English)"
+	},
+	"t5d9up9": {
+		"zh-cn": "请输入中文菜单名称",
+		"en": "Please enter the Chinese menu name"
+	},
+	"q8vdk59": {
+		"zh-cn": "请输入英文菜单名称",
+		"en": "Please enter the English menu name"
+	},
+	"n8cjel1c": {
+		"zh-cn": "内嵌是指用iframe嵌套在本系统中(请注意协议要跟系统相同，避免跨域),外链是打开新浏览器窗口",
+		"en": "Embedding refers to nesting an iframe within the same system (please note that the protocol should be the same as the system to avoid cross-domain), while an external link is to open a new browser window"
+	},
+	"buue9i4": {
+		"zh-cn": "外链模式",
+		"en": "\"External link mode\""
+	},
+	"ebivs4": {
+		"zh-cn": "外链",
+		"en": "\"External link"
+	},
+	"cy5ix4": {
+		"zh-cn": "内嵌",
+		"en": "Embedded"
+	},
+	"vrkyzu1d": {
+		"zh-cn": "内嵌: 用iframe嵌套在本系统中(请注意协议要跟系统相同，避免跨域).外链: 打开新浏览器窗口",
+		"en": "Embedded: Use iframe nested within this system (please note that the protocol should be the same as the system to avoid cross-domain). External link: Open a new browser window"
+	},
+	"ntdaql1d": {
+		"zh-cn": "内嵌: 用iframe嵌套在本系统中(请注意协议要跟系统相同，避免跨域);外链: 打开新浏览器窗口",
+		"en": "Embedded: Use iframe nested within this system (please note that the protocol should be the same as the system to avoid cross-domain); External link: Open a new browser window"
+	},
+	"y6qp2wd": {
+		"zh-cn": "这里是首页,待实现...",
+		"en": "This is the homepage. To be implemented..."
+	},
+	"14a9m56": {
+		"zh-cn": "新建会话",
+		"en": "Create a new session"
+	},
+	"11ghx65": {
+		"zh-cn": "AI 助手",
+		"en": "AI Assistant"
+	},
+	"g9q68d5": {
+		"zh-cn": "新建会话",
+		"en": "Create a new session"
+	},
+	"7u7yljb": {
+		"zh-cn": "你好，我是 AI 助手",
+		"en": "Hello, I'm an AI assistant"
+	},
+	"1m77ere": {
+		"zh-cn": "点击左上角「新对话」开始聊天",
+		"en": "Click on \"New Conversation\" in the upper left corner to start chatting"
+	},
+	"t5hk1if": {
+		"zh-cn": "点击左上角「新建会话」开始聊天",
+		"en": "Click \"New Session\" in the upper left corner to start chatting"
+	},
+	"z18rbnd": {
+		"zh-cn": "模拟数据, 你输入的是:",
+		"en": "For the simulated data, what you input is:"
+	},
+	"2xfskh8": {
+		"zh-cn": "三原后台管理系统",
+		"en": "Sanyuan back-end Management System"
+	},
+	"2xc5718": {
+		"zh-cn": "三原后台管理框架",
+		"en": "Sanyuan's back-end management framework"
+	},
+	"lpmyyd4k": {
+		"zh-cn": "一直想做一款后台管理系统，看了很多优秀的开源项目但是发现没有合适自己的。于是利用空闲休息时间开始自己写一套后台系统。如此有了若依管理系统，她可以用于所有的Web应用程序，如网站管理后台，网站会员中心，CMS，CRM，OA等等，当然，您也可以对她进行深度定制，以做出更强系统。所有前端后台代码封装过后十分精简易上手，出错概率低",
+		"en": "I've always wanted to develop a back-end management system. I've looked at many excellent open-source projects, but I found no one suitable for me. So I took advantage of my spare time to start writing a set of background systems by myself. With the Ruoyi management system, it can be used in all Web applications, such as website management backends, website member centers, CMS, CRM, OA, etc. Of course, you can also deeply customize it to create a more powerful system. All front-end and back-end codes are encapsulated to be very concise and easy to use, with a low probability of errors"
+	},
+	"y6id8z4k": {
+		"zh-cn": "一直想做一款后台管理系统，看了很多优秀的开源项目但是发现没有合适自己的。于是利用空闲休息时间开始自己写一套后台系统。如此有了三原管理系统，她可以用于所有的Web应用程序，如网站管理后台，网站会员中心，CMS，CRM，OA等等，当然，您也可以对她进行深度定制，以做出更强系统。所有前端后台代码封装过后十分精简易上手，出错概率低",
+		"en": "I've always wanted to develop a back-end management system. I've looked at many excellent open-source projects, but I found no one suitable for me. So I took advantage of my spare time to start writing a set of background systems by myself. With the Sanyuan Management System in place, it can be applied to all Web applications, such as website management backends, website member centers, CMS, CRM, OA, etc. Of course, you can also deeply customize it to create a more powerful system. All front-end and back-end codes are encapsulated to be very concise and easy to use, with a low probability of errors"
+	},
+	"5v3k4x4l": {
+		"zh-cn": "一直想做一款后台管理系统，看了很多优秀的开源项目但是发现没有合适自己的。于是利用空闲休息时间开始自己写一套后台系统。如此有了三原管理系统，她可以用于所有的Web应用程序，如网站管理后台，网站会员中心，CMS，CRM，OA等等，当然，您也可以对她进行深度定制，以做出更强系统。所有前端后台代码封装过后十分精简易上手，出错概率低。",
+		"en": "I've always wanted to develop a back-end management system. I've looked at many excellent open-source projects, but I found no one suitable for me. So I took advantage of my spare time to start writing a set of background systems by myself. With the Sanyuan Management System in place, it can be applied to all Web applications, such as website management backends, website member centers, CMS, CRM, OA, etc. Of course, you can also deeply customize it to create a more powerful system. All front-end and back-end codes are encapsulated to be very concise and easy to use, with a low probability of errors."
+	},
+	"sojero6": {
+		"zh-cn": "当前版本：",
+		"en": "Current version"
+	},
+	"sf5ogs5": {
+		"zh-cn": "当前版本：",
+		"en": "Current version"
+	},
+	"i92mtb4": {
+		"zh-cn": "访问码云",
+		"en": "Visit Code Cloud"
+	},
+	"i8zmrv4": {
+		"zh-cn": "访问文档",
+		"en": "Access the document"
+	},
+	"cv23kh4": {
+		"zh-cn": "技术选型",
+		"en": "Technology selection"
+	},
+	"eo8y2": {
+		"zh-cn": "前端",
+		"en": "\"Front-end\""
+	},
+	"eyzl2": {
+		"zh-cn": "后端",
+		"en": "\"Back end"
+	},
+	"aub1gc4": {
+		"zh-cn": "免费开源",
+		"en": "Free and open source"
+	},
+	"gpdxxx4": {
+		"zh-cn": "联系信息",
+		"en": "Contact information"
+	},
+	"dev07i4": {
+		"zh-cn": "更新日志",
+		"en": "Update log"
+	},
+	"d452gy4": {
+		"zh-cn": "捐赠支持",
+		"en": "Donation support"
+	},
+	"qzkafca": {
+		"zh-cn": "1、三原系统正式发布",
+		"en": "The Sanyuan System has been officially released"
+	},
+	"3oilab4r": {
+		"zh-cn": "一直想做一款后台管理系统，看了很多优秀的开源项目但是发现没有合适自己的。于是利用空闲休息时间开始自己写一套后台系统。如此有了三原管理系统，她可以用于所有的Web应用程序，如网站管理后台，网站会员中心，CMS，CRM，OA等等，当然，您也可以对她进行深度定制，以做出更强系统。所有前端后台代码封装过后十分精简易上手，出错概率低。系统设计参考：",
+		"en": "I've always wanted to develop a back-end management system. I've looked at many excellent open-source projects, but I found no one suitable for me. So I took advantage of my spare time to start writing a set of background systems by myself. With the Sanyuan Management System in place, it can be applied to all Web applications, such as website management backends, website member centers, CMS, CRM, OA, etc. Of course, you can also deeply customize it to create a more powerful system. All front-end and back-end codes are encapsulated to be very concise and easy to use, with a low probability of errors. System design reference"
+	},
+	"jmkg5e4v": {
+		"zh-cn": "一直想做一款后台管理系统，看了很多优秀的开源项目但是发现没有合适自己的。于是利用空闲休息时间开始自己写一套后台系统。如此有了三原管理系统，她可以用于所有的Web应用程序，如网站管理后台，网站会员中心，CMS，CRM，OA等等，当然，您也可以对她进行深度定制，以做出更强系统。所有前端后台代码封装过后十分精简易上手，出错概率低。系统设计参考开源项目：",
+		"en": "I've always wanted to develop a back-end management system. I've looked at many excellent open-source projects, but I found no one suitable for me. So I took advantage of my spare time to start writing a set of background systems by myself. With the Sanyuan Management System in place, it can be applied to all Web applications, such as website management backends, website member centers, CMS, CRM, OA, etc. Of course, you can also deeply customize it to create a more powerful system. All front-end and back-end codes are encapsulated to be very concise and easy to use, with a low probability of errors. System design reference: Open source projects"
+	},
+	"imi9q57": {
+		"zh-cn": "微信扫一扫转账",
+		"en": "Scan the code with wechat to transfer money"
+	},
+	"tdvb208": {
+		"zh-cn": "支付宝扫一扫付款",
+		"en": "Pay by scanning the code with Alipay"
+	},
+	"2oqi0ne": {
+		"zh-cn": "你可以请作者喝杯咖啡表示鼓励",
+		"en": "You can offer the author a cup of coffee as an encouragement"
+	},
+	"4s9pqa8": {
+		"zh-cn": "支付宝：/*景源",
+		"en": "Alipay: /* Jingyuan"
+	},
+	"i8rxlp7": {
+		"zh-cn": "微信：/*景源",
+		"en": "Wechat: /* Jingyuan"
+	},
+	"imaro37": {
+		"zh-cn": "微信扫一扫捐赠",
+		"en": "Scan the code with wechat to make a donation"
+	},
+	"tdrmz28": {
+		"zh-cn": "支付宝扫一扫捐赠",
+		"en": "Scan the code with Alipay to make a donation"
+	},
+	"hrzsjb6": {
+		"zh-cn": "确定清空吗?",
+		"en": "Are you sure you want to empty it?"
+	},
+	"gody2": {
+		"zh-cn": "异常",
+		"en": "Abnormal"
+	},
+	"ei26ku4": {
+		"zh-cn": "清除成功",
+		"en": "Cleared successfully"
+	},
+	"h9av0b9": {
+		"zh-cn": "请选择要删除的记录",
+		"en": "Please select the records you want to delete"
+	},
+	"h4sv2": {
+		"zh-cn": "成功",
+		"en": "Success"
+	},
+	"fy1g2": {
+		"zh-cn": "失败",
+		"en": "Failure"
+	},
+	"uuel5u4w": {
+		"zh-cn": "一直想做一款后台管理系统，看了很多优秀的开源项目但是发现没有合适自己的。于是利用空闲休息时间开始自己写一套后台系统。如此有了三原管理系统，她可以用于所有的Web应用程序，如网站管理后台，网站会员中心，CMS，CRM，OA等等，当然，您也可以对她进行深度定制，以做出更强系统。所有前端后台代码封装过后十分精简易上手，出错概率低。系统设计参考开源项目：",
+		"en": "I've always wanted to develop a back-end management system. I've looked at many excellent open-source projects, but I found no one suitable for me. So I took advantage of my spare time to start writing a set of background systems by myself. With the Sanyuan Management System in place, it can be applied to all Web applications, such as website management backends, website member centers, CMS, CRM, OA, etc. Of course, you can also deeply customize it to create a more powerful system. All front-end and back-end codes are encapsulated to be very concise and easy to use, with a low probability of errors. System design reference: Open source projects"
+	}
+}

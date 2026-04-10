@@ -1,0 +1,100 @@
+{
+  "id": "5092636",
+  "name": "sanyuan-admin",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "用于三原后台管理系用的图标",
+  "glyphs": [
+    {
+      "icon_id": "3677282",
+      "name": "白天-晴",
+      "font_class": "baitian-qing",
+      "unicode": "e672",
+      "unicode_decimal": 58994
+    },
+    {
+      "icon_id": "4849765",
+      "name": "English",
+      "font_class": "English",
+      "unicode": "e656",
+      "unicode_decimal": 58966
+    },
+    {
+      "icon_id": "10329716",
+      "name": "auto",
+      "font_class": "auto",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "12705237",
+      "name": "退出登录",
+      "font_class": "tuichudenglu",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "16840416",
+      "name": "退出登录",
+      "font_class": "tuichudenglu1",
+      "unicode": "e71e",
+      "unicode_decimal": 59166
+    },
+    {
+      "icon_id": "24317883",
+      "name": "中文",
+      "font_class": "zhongwen",
+      "unicode": "e63b",
+      "unicode_decimal": 58939
+    },
+    {
+      "icon_id": "39400129",
+      "name": "夜晚",
+      "font_class": "yewan",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "169893",
+      "name": "新窗口打开",
+      "font_class": "xinchuangkoudakai",
+      "unicode": "e6c9",
+      "unicode_decimal": 59081
+    },
+    {
+      "icon_id": "17381523",
+      "name": "向中间对齐",
+      "font_class": "xiangzhongjianduiqi",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "18170425",
+      "name": "固定,图钉",
+      "font_class": "relieve",
+      "unicode": "e9ba",
+      "unicode_decimal": 59834
+    },
+    {
+      "icon_id": "41017510",
+      "name": "关闭右侧",
+      "font_class": "close-right",
+      "unicode": "e7a1",
+      "unicode_decimal": 59297
+    },
+    {
+      "icon_id": "43170345",
+      "name": "关闭左侧",
+      "font_class": "guanbizuoce",
+      "unicode": "e81b",
+      "unicode_decimal": 59419
+    },
+    {
+      "icon_id": "44739850",
+      "name": "取消固定",
+      "font_class": "keep_off",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+/* ==================== fade ==================== */
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition-property: opacity;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ==================== fade-down ==================== */
+.fade-down-enter-from,
+.fade-down-leave-to {
+  opacity: 0;
+  margin-top: -16px; /* -mt-4 = -16px */
+}
+.fade-down-enter-active,
+.fade-down-leave-active {
+  transition-property: opacity, margin;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ==================== fade-up ==================== */
+.fade-up-enter-from,
+.fade-up-leave-to {
+  opacity: 0;
+  margin-top: 16px; /* mt-4 = 16px */
+}
+
+.fade-up-enter-active,
+.fade-up-leave-active {
+  transition-property: opacity, margin;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ==================== fade-slide ==================== */
+.fade-slide-enter-from,
+.fade-slide-leave-to {
+  opacity: 0;
+  margin-left: 16px; /* ml-4 = 16px */
+}
+
+.fade-slide-enter-active,
+.fade-slide-leave-active {
+  transition-property: opacity, margin;
+  transition-duration: 300ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

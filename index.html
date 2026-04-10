@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="/favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SanYuan</title>
+
+  <style>
+    @keyframes css-antSpinMove {
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes css-antRotate {
+      to {
+        transform: rotate(405deg);
+      }
+    }
+
+    /* .before-loading__filter {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: linear-gradient(154deg, rgba(7, 7, 9, 0.082) 30%, #d5e6ff 60%, rgba(7, 7, 9, 0.082) 10%);
+      filter: blur(40px);
+    } */
+
+    .before-loading {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+    }
+
+    .before-loading>p {
+      font-size: 16px;
+      margin-top: 8px;
+      color: #1677ff;
+    }
+
+
+    .loading-spin-dot-spin {
+      transform: rotate(45deg);
+      animation-name: css-antRotate;
+      animation-duration: 1.2s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      position: relative;
+      display: inline-block;
+      font-size: 20px;
+      width: 1em;
+      height: 1em;
+    }
+
+    .loading-spin-dot-item {
+      position: absolute;
+      display: block;
+      width: 9px;
+      height: 9px;
+      background-color: #1677ff;
+      border-radius: 100%;
+      transform: scale(0.75);
+      transform-origin: 50% 50%;
+      opacity: 0.3;
+      animation-name: css-antSpinMove;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+      animation-direction: alternate;
+    }
+
+    .loading-spin-dot-item:nth-child(1) {
+      top: 0;
+      inset-inline-start: 0;
+    }
+
+    .loading-spin-dot-item:nth-child(2) {
+      top: 0;
+      inset-inline-end: 0;
+      animation-delay: 0.4s;
+    }
+
+    .loading-spin-dot-item:nth-child(3) {
+      inset-inline-end: 0;
+      bottom: 0;
+      animation-delay: 0.8s;
+    }
+
+    .loading-spin-dot-item:nth-child(4) {
+      bottom: 0;
+      inset-inline-start: 0;
+      animation-delay: 1.2s;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app"></div>
+
+  <div class="before-loading">
+    <div class="before-loading__filter"></div>
+    <div class="loading-spin loading-spin-spinning">
+      <span class="loading-spin-dot loading-spin-dot-spin">
+        <i class="loading-spin-dot-item"></i>
+        <i class="loading-spin-dot-item"></i>
+        <i class="loading-spin-dot-item"></i>
+        <i class="loading-spin-dot-item"></i>
+      </span>
+    </div>
+    <p>加载中...</p>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
