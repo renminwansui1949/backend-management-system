@@ -5,9 +5,14 @@
         <div class="home-introduction">
           <span class="decoration">
             一直想做一款后台管理系统，看了很多优秀的开源项目但是发现没有合适自己的。于是利用空闲休息时间开始自己写一套后台系统。如此有了三原管理系统，她可以用于所有的Web应用程序，如网站管理后台，网站会员中心，CMS，CRM，OA等等，当然，您也可以对她进行深度定制，以做出更强系统。所有前端后台代码封装过后十分精简易上手，出错概率低。系统设计参考开源项目：
-            <a-button type="link" style="padding: 0" href="https://vue.ruoyi.vip/">RuoYi</a-button
+            <a-button type="link" target="_blank" style="padding: 0" href="https://vue.ruoyi.vip/"
+              >RuoYi</a-button
             >、
-            <a-button type="link" style="padding: 0" href="https://naive-ui-pro.pro-components.cn/"
+            <a-button
+              type="link"
+              target="_blank"
+              style="padding: 0"
+              href="https://naive-ui-pro.pro-components.cn/"
               >Naive UI Pro</a-button
             >
 
@@ -16,8 +21,12 @@
 
           <div class="jump">
             <a-button danger>免费开源</a-button>
-            <a-button>访问码云</a-button>
-            <a-button>访问文档</a-button>
+            <a-button href="https://gitee.com/hejingyuan01/open-sanyuan-web" target="_blank"
+              >访问码云</a-button
+            >
+            <a-button href="https://sanyuan.website/vitepress-blog/" target="_blank"
+              >访问文档</a-button
+            >
           </div>
         </div>
       </ProLayoutSection>

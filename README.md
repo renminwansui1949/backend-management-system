@@ -6,6 +6,11 @@
 
 [https://sanyuan.website/](https://sanyuan.website/) admin 用户名：admin 密码：123456
 
+## 项目地址
+
+[前端仓库项目https://gitee.com/hejingyuan01/open-sanyuan-web](https://gitee.com/hejingyuan01/open-sanyuan-web)
+[后端仓库项目https://gitee.com/hejingyuan01/open-sanyuan-services](https://gitee.com/hejingyuan01/open-sanyuan-services)
+
 ## 演示截图
 
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
