@@ -22,6 +22,7 @@
       </div>
 
       <div class="app-header__nav--right">
+        <GitLink />
         <Setting />
         <Theme />
         <Language />
@@ -53,6 +54,7 @@ import Theme from './theme.vue'
 import TabBar from './tabbar.vue'
 import Setting from './setting.vue'
 import ProLogo from '../app-logo/index.vue'
+import GitLink from './git-link.vue'
 
 import { useHeaderStyle } from '../hooks/use-style.js'
 import { useThemeToken } from '../hooks/use-theme-token.js'
