@@ -1338,5 +1338,9 @@
 	"uuel5u4w": {
 		"zh-cn": "一直想做一款后台管理系统，看了很多优秀的开源项目但是发现没有合适自己的。于是利用空闲休息时间开始自己写一套后台系统。如此有了三原管理系统，她可以用于所有的Web应用程序，如网站管理后台，网站会员中心，CMS，CRM，OA等等，当然，您也可以对她进行深度定制，以做出更强系统。所有前端后台代码封装过后十分精简易上手，出错概率低。系统设计参考开源项目：",
 		"en": "I've always wanted to develop a back-end management system. I've looked at many excellent open-source projects, but I found no one suitable for me. So I took advantage of my spare time to start writing a set of background systems by myself. With the Sanyuan Management System in place, it can be applied to all Web applications, such as website management backends, website member centers, CMS, CRM, OA, etc. Of course, you can also deeply customize it to create a more powerful system. All front-end and back-end codes are encapsulated to be very concise and easy to use, with a low probability of errors. System design reference: Open source projects"
+	},
+	"vzd666": {
+		"zh-cn": "侧边双栏布局",
+		"en": "Double-column layout on the side"
 	}
 }

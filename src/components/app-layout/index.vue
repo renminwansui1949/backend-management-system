@@ -1,13 +1,21 @@
 <template>
-  <div class="app-layout">
-    <AppSide v-if="!isHorizontalLayout" />
-    <div class="app-layout__main" data-simplebar-auto-hide="true">
+  <div class="app-layout" :class="`app-layout--${layoutConfig.mode}`">
+    <AppSide v-if="isSideLayout || isTwoSideLayout" />
+    <div class="app-layout__main">
       <AppHeader />
-      <AppContent>
-        <template #footer>
-          <AppFooter />
-        </template>
-      </AppContent>
+
+      <div class="app-layout__wrapper">
+        <AppSide v-if="isMixedLayout" />
+
+        <div class="app-layout__content">
+          <TabBar v-if="isMixedLayout" />
+          <AppContent>
+            <template #footer>
+              <AppFooter />
+            </template>
+          </AppContent>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -19,6 +27,7 @@ import AppHeader from './app-header/index.vue'
 import AppSide from './app-side/index.vue'
 import AppContent from './app-content/index.vue'
 import AppFooter from './app-footer/index.vue'
+import TabBar from './app-header/tabbar.vue'
 
 import { useThemeToken } from './hooks/use-theme-token'
 import { useLayoutStore } from '@/stores/layout'
@@ -27,9 +36,18 @@ import { LAYOUT_MODE } from '@/constant/layout'
 const { colorTextBase, colorBgBase } = useThemeToken()
 const { layoutConfig } = useLayoutStore()
 
-const isHorizontalLayout = computed(() => {
-  // 水平布局 不显示 侧边栏
-  return layoutConfig.mode === LAYOUT_MODE.HORIZONTAL
+// 侧边布局模式
+const isSideLayout = computed(() => {
+  return layoutConfig.mode === LAYOUT_MODE.SIDE
+})
+
+// 混合布局模式
+const isMixedLayout = computed(() => {
+  return layoutConfig.mode === LAYOUT_MODE.MIXED
+})
+// 两侧布局模式
+const isTwoSideLayout = computed(() => {
+  return layoutConfig.mode === LAYOUT_MODE.TOW_SIDE
 })
 </script>
 
@@ -41,11 +59,29 @@ const isHorizontalLayout = computed(() => {
   color: v-bind(colorTextBase);
   background-color: v-bind(colorBgBase);
 
+  &.app-layout--mixed {
+    :deep(.app-side__content) {
+      margin-top: 8px;
+    }
+  }
+
   .app-layout__main {
     overflow: hidden;
     flex: 1;
     display: flex;
     flex-direction: column;
+
+    .app-layout__wrapper {
+      display: flex;
+      overflow: hidden;
+
+      .app-layout__content {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        flex: 1;
+      }
+    }
   }
 }
 </style>

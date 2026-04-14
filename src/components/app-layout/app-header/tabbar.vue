@@ -106,6 +106,7 @@ import { useRefreshStore } from '@/stores/refresh'
 import { useStoreTabs, MENU_ITEM_MAP } from '../hooks/use-tab'
 import { useScroll } from '../hooks/use-scroll'
 
+import { useHeaderStyle } from '../hooks/use-style.js'
 import { useThemeToken } from '../hooks/use-theme-token'
 import { TABBAR_MODE } from '@/constant/layout'
 
@@ -118,12 +119,14 @@ defineOptions({
 
 const router = useRouter()
 const route = useRoute()
+const { tabbarHeight } = useHeaderStyle()
 
 const { scrollbarRef, handleWheel } = useScroll()
 const tabStore = useStoreTabs()
 const { remove, generateMenuItemKey, getMenuItemInfo, toggleFixed } = tabStore
 const { tabs, reloadTabs } = toRefs(tabStore)
-const { controlItemBgActive, colorPrimary, colorBgTextHover, colorBorder } = useThemeToken()
+const { controlItemBgActive, colorPrimary, colorBgTextHover, colorBorder, colorBorderSecondary } =
+  useThemeToken()
 const layoutStore = useLayoutStore()
 const refreshStore = useRefreshStore()
 
@@ -217,7 +220,8 @@ onMounted(() => {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 100%;
+  height: v-bind(tabbarHeight);
+  border-bottom: 1px solid v-bind(colorBorderSecondary);
 
   .tabbar-content {
     flex: 1;

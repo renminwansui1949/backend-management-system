@@ -15,7 +15,6 @@ export const useSideStyle = () => {
   const isShowSideLogo = computed(() => {
     /**
      * 显示：
-     * VERTICAL 显示侧边LOGO
      * SIDE 显示侧边LOGO 但不显示logo title
      *
      * 不显示：
@@ -26,11 +25,9 @@ export const useSideStyle = () => {
     if (!layoutStore.layoutConfig.showLogo) {
       return false
     }
-    return (
-      layoutStore.layoutConfig.mode === LAYOUT_MODE.VERTICAL ||
-      layoutStore.layoutConfig.mode === LAYOUT_MODE.SIDE
-    )
+    return layoutStore.layoutConfig.mode === LAYOUT_MODE.SIDE
   })
+
   const sideWidth = computed(() => {
     /***
      * 侧边宽度
@@ -39,9 +36,14 @@ export const useSideStyle = () => {
     if (!layoutStore.layoutConfig.showSidebar) {
       return `0px`
     }
+
     const width = layoutStore.layoutConfig.collapsed
       ? layoutStore.layoutConfig.sidebarCollapsedWidth
       : layoutStore.layoutConfig.sidebarWidth
+    if (layoutStore.layoutConfig.mode === LAYOUT_MODE.TOW_SIDE) {
+      // 双栏布局默认增加一个折叠的width
+      return `${width + layoutStore.layoutConfig.sidebarCollapsedWidth}px`
+    }
     return `${width}px`
   })
 
@@ -57,12 +59,17 @@ export const useSideStyle = () => {
     return layoutStore.layoutConfig.sidebarCollapsedShowMenuTitle
   })
 
+  const sidebarCollapsedWidth = computed(() => {
+    return `${layoutStore.layoutConfig.sidebarCollapsedWidth}px`
+  })
+
   return {
     sideWidth,
     sideMarginTop,
     sideHeight,
     isShowSideLogo,
     sidebarCollapsedShowMenuTitle,
+    sidebarCollapsedWidth,
   }
 }
 

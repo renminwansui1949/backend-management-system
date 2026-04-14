@@ -264,12 +264,12 @@ const layoutModeOptions = [
     value: LAYOUT_MODE.SIDE,
   },
   {
-    label: '混合布局（待实现）',
+    label: '混合布局',
     value: LAYOUT_MODE.MIXED,
   },
   {
-    label: '垂直布局（待实现）',
-    value: LAYOUT_MODE.VERTICAL,
+    label: '侧边双栏布局',
+    value: LAYOUT_MODE.TOW_SIDE,
   },
 ]
 

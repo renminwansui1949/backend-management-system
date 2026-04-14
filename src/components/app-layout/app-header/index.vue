@@ -6,16 +6,17 @@
     >
       <div class="app-header__nav--left">
         <!-- 水平布局 不展示 菜单折叠按钮 -->
-        <MenuClose v-if="!isHorizontalLayout" />
-        <Breadcrumb v-if="!isHorizontalLayout" />
+        <MenuClose v-if="!isShowHorizontal" />
+        <Breadcrumb v-if="!isShowHorizontal" />
         <!-- 水平布局展示LOGO 信息 -->
-        <ProLogo v-if="isHorizontalLayout" />
+        <ProLogo v-if="isShowHorizontal" />
 
         <a-menu
-          v-if="isHorizontalLayout"
+          v-if="isShowHorizontal && currentItems.length"
           v-model:selectedKeys="selectedKeys"
           mode="horizontal"
-          :items="items"
+          :items="currentItems"
+          :key="currentItems"
           @click="handleMenuClick"
         ></a-menu>
       </div>
@@ -28,18 +29,20 @@
         <UserAvatar />
       </div>
     </div>
-    <!-- 不显示顶栏后， 要能打开设置模块 -->
-    <div class="app-header__tabbar" v-show="layoutStore.layoutConfig.showTabbar">
+    <div
+      class="app-header__tabbar"
+      v-if="isHorizontal || isSideLayout || isTwoSideLayout"
+      v-show="layoutStore.layoutConfig.showTabbar"
+    >
       <TabBar />
     </div>
   </div>
 </template>
 
 <script setup>
-import { defineOptions, computed, ref, watch } from 'vue'
+import { defineOptions, computed } from 'vue'
 import { useLayoutStore } from '@/stores/layout'
 import { LAYOUT_MODE } from '@/constant/layout'
-import { useRoute, useRouter } from 'vue-router'
 
 import Breadcrumb from './breadcrumb.vue'
 import MenuClose from './menu-close.vue'
@@ -53,64 +56,46 @@ import ProLogo from '../app-logo/index.vue'
 
 import { useHeaderStyle } from '../hooks/use-style.js'
 import { useThemeToken } from '../hooks/use-theme-token.js'
-
-import { usePermissionStore } from '@/stores/permission'
-const { menuPermission } = usePermissionStore()
+import { useMenu } from '../hooks/use-menu'
 
 defineOptions({
   name: 'AppHeader',
 })
 
-const route = useRoute()
-const router = useRouter()
 const layoutStore = useLayoutStore()
+const { allMenu, leave1Menu, selectedKeys, handleMenuClick } = useMenu()
 
 const { colorBorderSecondary, colorBgBase } = useThemeToken()
 const { navHeight, tabbarHeight } = useHeaderStyle()
 
-const selectedKeys = ref([])
+// 控制水平菜单的数据项
+const currentItems = computed(() => {
+  if (layoutStore.layoutConfig.mode === LAYOUT_MODE.HORIZONTAL) {
+    return allMenu.value
+  }
+  return leave1Menu.value
+})
 
-const isHorizontalLayout = computed(() => {
-  // 水平布局 不显示 侧边栏
+// 是否显示水平菜单
+const isShowHorizontal = computed(() => {
+  return isMixedLayout.value || isHorizontal.value
+})
+
+const isMixedLayout = computed(() => {
+  return layoutStore.layoutConfig.mode === LAYOUT_MODE.MIXED
+})
+
+const isHorizontal = computed(() => {
   return layoutStore.layoutConfig.mode === LAYOUT_MODE.HORIZONTAL
 })
 
-const formatSideDynamicRouter = (data = menuPermission) => {
-  const result = []
+const isSideLayout = computed(() => {
+  return layoutStore.layoutConfig.mode === LAYOUT_MODE.SIDE
+})
 
-  data.forEach((item) => {
-    if (item.hidden) return // 配置不显示的菜单
-    result.push({
-      icon: item.meta.icon,
-      key: item.path,
-      label: item.meta.title,
-      title: item.meta.title,
-      isFrame: item.meta.isFrame,
-      children: item.children ? formatSideDynamicRouter(item.children) : null,
-    })
-  })
-
-  return result
-}
-
-const items = ref(formatSideDynamicRouter(menuPermission))
-
-const handleMenuClick = (e) => {
-  if (e.item.isFrame) {
-    window.open(e.key)
-  } else {
-    router.push(e.key)
-  }
-}
-watch(
-  () => route.path,
-  () => {
-    // 针对数据字段特殊处理下
-    const selectRouterPath = route.path.startsWith('/system/dict') ? '/system/dict' : route.path
-    selectedKeys.value = [selectRouterPath]
-  },
-  { immediate: true },
-)
+const isTwoSideLayout = computed(() => {
+  return layoutStore.layoutConfig.mode === LAYOUT_MODE.TOW_SIDE
+})
 </script>
 
 <style lang="less" scoped>
@@ -132,15 +117,14 @@ watch(
     justify-content: space-between;
     border-bottom: 1px solid v-bind('colorBorderSecondary');
 
-    &.app-header__nav--horizontal {
-      :deep(.app-logo) {
-        width: 224px;
-      }
+    :deep(.app-logo) {
+      width: 224px;
+    }
 
-      :deep(.ant-menu-horizontal) {
-        li::after {
-          display: none;
-        }
+    :deep(.ant-menu-horizontal) {
+      border-bottom: none;
+      li::after {
+        display: none;
       }
     }
 

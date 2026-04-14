@@ -1,35 +1,61 @@
 <template>
   <aside class="app-side">
-    <ProLogo v-if="isShowSideLogo" :isShowTitle="!isCollapsed" />
-    <div
-      class="app-side__content"
-      :class="{ 'menu-collapsed__title': sidebarCollapsedShowMenuTitle }"
-    >
-      <div class="app-side__menu">
-        <Simplebar data-simplebar-auto-hide="true" class="sidebar-simplebar">
-          <a-menu
-            v-model:selectedKeys="selectedKeys"
-            style="width: 100%"
-            mode="inline"
-            :inline-collapsed="isCollapsed"
-            :items="sideDynamicRouter"
-            @click="handleMenuClick"
-          ></a-menu>
-        </Simplebar>
+    <!-- 侧边双栏第一级默认不展开 -->
+    <div style="" class="app-side__leave1" v-if="isTwoSideLayout">
+      <ProLogo :isShowTitle="false" />
+      <div
+        class="app-side__content"
+        :class="{ 'menu-collapsed__title': sidebarCollapsedShowMenuTitle }"
+      >
+        <div class="app-side__menu">
+          <Simplebar data-simplebar-auto-hide="true" class="sidebar-simplebar">
+            <a-menu
+              v-model:selectedKeys="selectedKeys"
+              style="width: 100%"
+              mode="inline"
+              v-if="sideLevel1Menu.length"
+              :inline-collapsed="true"
+              :items="sideLevel1Menu"
+              @click="handleMenuClick"
+            ></a-menu>
+          </Simplebar>
+        </div>
       </div>
-      <div class="app-side__content--collapsed">
-        <a-button type="text" @click="toggleCollapsed" size="small">
-          <MenuUnfoldOutlined v-if="isCollapsed" />
-          <MenuFoldOutlined v-else />
-        </a-button>
+    </div>
+    <!-- 侧边双栏布局二级，侧边栏、混合布局使用 -->
+    <div class="app-side__leave2" v-if="sideLevel2Menu.length">
+      <ProLogo v-if="isShowSideLogo" :isShowTitle="!isCollapsed" />
+      <div
+        class="app-side__content"
+        :class="{ 'menu-collapsed__title': sidebarCollapsedShowMenuTitle }"
+      >
+        <div class="app-side__menu">
+          <Simplebar data-simplebar-auto-hide="true" class="sidebar-simplebar">
+            <a-menu
+              v-model:selectedKeys="selectedKeys"
+              style="width: 100%"
+              mode="inline"
+              :key="formatSideLevel2Menu"
+              :inline-collapsed="isCollapsed"
+              v-if="formatSideLevel2Menu.length"
+              :items="formatSideLevel2Menu"
+              @click="handleMenuClick"
+            ></a-menu>
+          </Simplebar>
+        </div>
+        <div class="app-side__content--collapsed">
+          <a-button type="text" @click="toggleCollapsed" size="small">
+            <MenuUnfoldOutlined v-if="isCollapsed" />
+            <MenuFoldOutlined v-else />
+          </a-button>
+        </div>
       </div>
     </div>
   </aside>
 </template>
 
 <script setup>
-import { defineOptions, computed, ref, watch } from 'vue'
-import { useRoute, useRouter } from 'vue-router'
+import { defineOptions, computed } from 'vue'
 import Simplebar from 'simplebar-vue'
 
 import { MenuUnfoldOutlined, MenuFoldOutlined } from '@ant-design/icons-vue'
@@ -38,45 +64,40 @@ import { useLayoutStore } from '@/stores/layout'
 import { useThemeToken } from '../hooks/use-theme-token.js'
 import { useCollapsed } from '../hooks/use-collapsed'
 import { useSideStyle } from '../hooks/use-style'
+import { useMenu } from '../hooks/use-menu'
+import { LAYOUT_MODE } from '@/constant/layout'
 
-import { usePermissionStore } from '@/stores/permission'
-const { menuPermission } = usePermissionStore()
-
-const route = useRoute()
-const router = useRouter()
+import { cloneDeep } from 'lodash'
 
 defineOptions({
   name: 'AppSide',
 })
 
-const { sideWidth, isShowSideLogo, sidebarCollapsedShowMenuTitle } = useSideStyle()
+const { sideWidth, isShowSideLogo, sidebarCollapsedShowMenuTitle, sidebarCollapsedWidth } =
+  useSideStyle()
 const { colorBorderSecondary } = useThemeToken()
 const { isCollapsed, toggleCollapsed } = useCollapsed()
 const layoutStore = useLayoutStore()
 
-const selectedKeys = ref([])
+const { allMenu, leave1Menu, leave2AndSubLevel, selectedKeys, handleMenuClick } = useMenu()
 
-const formatSideDynamicRouter = (data = menuPermission) => {
-  const result = []
+const sideLevel2Menu = computed(() => {
+  if (
+    layoutStore.layoutConfig.mode === LAYOUT_MODE.MIXED ||
+    layoutStore.layoutConfig.mode === LAYOUT_MODE.TOW_SIDE
+  ) {
+    return leave2AndSubLevel.value
+  }
+  return allMenu.value
+})
 
-  data.forEach((item) => {
-    if (item.hidden) return // 配置不显示的菜单
-    result.push({
-      icon: item.meta.icon,
-      key: item.path,
-      label: item.meta.title,
-      title: item.meta.title,
-      isFrame: item.meta.isFrame,
-      children: item.children ? formatSideDynamicRouter(item.children) : null,
-    })
-  })
+const sideLevel1Menu = computed(() => {
+  return leave1Menu.value
+})
 
-  return result
-}
-
-const sideDynamicRouter = computed(() => {
-  // 是否开启分割线
-  const menus = formatSideDynamicRouter(menuPermission)
+const formatSideLevel2Menu = computed(() => {
+  // 是否开启侧边栏分割线
+  const menus = cloneDeep(sideLevel2Menu.value)
   if (layoutStore.layoutConfig.sidebarMenuDivider && !isCollapsed.value) {
     for (let i = menus.length; i > 0; i--) {
       // 最后一个不注入分割线
@@ -98,35 +119,50 @@ const sideDynamicRouter = computed(() => {
   return menus
 })
 
-const handleMenuClick = (e) => {
-  if (e.item.isFrame) {
-    window.open(e.key)
-  } else {
-    router.push(e.key)
+const currentSideWidth = computed(() => {
+  if (!sideLevel2Menu.value.length && isMixedLayout.value) {
+    return '0px'
   }
-}
+  if (!sideLevel2Menu.value.length && isTwoSideLayout.value) {
+    return sidebarCollapsedWidth.value
+  }
+  return sideWidth.value
+})
 
-watch(
-  () => route.path,
-  () => {
-    // 针对数据字段特殊处理下
-    const selectRouterPath = route.path.startsWith('/system/dict') ? '/system/dict' : route.path
-    selectedKeys.value = [selectRouterPath]
-  },
-  { immediate: true },
-)
+const isMixedLayout = computed(() => {
+  return layoutStore.layoutConfig.mode === LAYOUT_MODE.MIXED
+})
+
+const isTwoSideLayout = computed(() => {
+  return layoutStore.layoutConfig.mode === LAYOUT_MODE.TOW_SIDE
+})
 </script>
 
 <style lang="less" scoped>
 .app-side {
-  width: v-bind(sideWidth);
-  min-width: v-bind(sideWidth);
+  width: v-bind(currentSideWidth);
+  min-width: v-bind(currentSideWidth);
   box-sizing: border-box;
   border-right: 1px solid v-bind('colorBorderSecondary');
   transition: width 0.3s ease-in-out;
   display: flex;
-  flex-direction: column;
   overflow: hidden;
+
+  .app-side__leave1 {
+    width: v-bind(sidebarCollapsedWidth);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid v-bind('colorBorderSecondary');
+  }
+
+  .app-side__leave2 {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+  }
 
   /deep/.app-logo {
     justify-content: center;
@@ -170,13 +206,11 @@ watch(
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    min-height: 0; // ✅ 关键：允许 flex 子项收缩
+    min-height: 0;
 
     .app-side__menu {
       flex: 1;
-      min-height: 0; // ✅ 关键：允许 flex 子项收缩
-
-      // ✅ SimpleBar 需要明确高度
+      min-height: 0;
       .sidebar-simplebar {
         height: 100%;
 
