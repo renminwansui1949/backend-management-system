@@ -17,6 +17,8 @@
   },
   "dependencies": {
     "@vueuse/core": "^14.1.0",
+    "@wangeditor/editor": "^5.1.23",
+    "@wangeditor/editor-for-vue": "^5.1.12",
     "ant-design-vue": "^4.2.6",
     "ant-design-x-vue": "^1.6.0",
     "axios": "^1.13.6",

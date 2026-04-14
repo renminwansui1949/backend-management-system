@@ -1342,5 +1342,149 @@
 	"vzd666": {
 		"zh-cn": "侧边双栏布局",
 		"en": "Double-column layout on the side"
+	},
+	"22fvqv6": {
+		"zh-cn": "前端项目",
+		"en": "Front-end project"
+	},
+	"4sfqoa6": {
+		"zh-cn": "后端项目",
+		"en": "Back-end project"
+	},
+	"dbefxq4": {
+		"zh-cn": "文章分类",
+		"en": "Article Classification"
+	},
+	"die9o04": {
+		"zh-cn": "未知分类",
+		"en": "Unknown classification"
+	},
+	"dbeip64": {
+		"zh-cn": "文章列表",
+		"en": "List of articles"
+	},
+	"gha92": {
+		"zh-cn": "封面",
+		"en": "Cover"
+	},
+	"dbic8a4": {
+		"zh-cn": "文章标题",
+		"en": "Article Title"
+	},
+	"emut2": {
+		"zh-cn": "分类",
+		"en": "Classification"
+	},
+	"gom8m3": {
+		"zh-cn": "浏览量",
+		"en": "Page views"
+	},
+	"devbay4": {
+		"zh-cn": "更新时间",
+		"en": "Update time"
+	},
+	"n02e2": {
+		"zh-cn": "草稿",
+		"en": "Draft"
+	},
+	"e656s3": {
+		"zh-cn": "已发布",
+		"en": "Published"
+	},
+	"e5cau3": {
+		"zh-cn": "已下线",
+		"en": "Offline"
+	},
+	"dbjuh04": {
+		"zh-cn": "文章状态",
+		"en": "Article Status"
+	},
+	"m8wrk68": {
+		"zh-cn": "文章标题不能为空",
+		"en": "The title of the article cannot be empty"
+	},
+	"t1j0028": {
+		"zh-cn": "文章分类不能为空",
+		"en": "The classification of articles cannot be empty"
+	},
+	"e0wovg8": {
+		"zh-cn": "文章状态不能为空",
+		"en": "The status of the article cannot be empty"
+	},
+	"d77ag74": {
+		"zh-cn": "新增文章",
+		"en": "New article added"
+	},
+	"gmkq0k4": {
+		"zh-cn": "编辑文章",
+		"en": "Edit articles"
+	},
+	"k7koml7": {
+		"zh-cn": "请输入文章标题",
+		"en": "Please enter the title of the article"
+	},
+	"dbgad64": {
+		"zh-cn": "文章封面",
+		"en": "The cover of the article"
+	},
+	"x4089x7": {
+		"zh-cn": "请选择文章分类",
+		"en": "Please select the article category"
+	},
+	"x45mt77": {
+		"zh-cn": "请选择文章状态",
+		"en": "Please select the article status"
+	},
+	"dbe6dp4": {
+		"zh-cn": "文章内容",
+		"en": "The content of the article"
+	},
+	"o0lag3j": {
+		"zh-cn": "只能上传 JPG/PNG 格式的图片!",
+		"en": "Only images in JPG/PNG format can be uploaded!"
+	},
+	"5jppvbd": {
+		"zh-cn": "图片大小不能超过 2MB!",
+		"en": "The size of the picture cannot exceed 2MB!"
+	},
+	"a6e5av4": {
+		"zh-cn": "上传封面",
+		"en": "Upload the cover"
+	},
+	"16nec18": {
+		"zh-cn": "请输入内容...",
+		"en": "Please enter the content..."
+	},
+	"bso99b6": {
+		"zh-cn": "文章分类列表",
+		"en": "Article classification list"
+	},
+	"fjqf7c8": {
+		"zh-cn": "分类名称不能为空",
+		"en": "The category name cannot be empty"
+	},
+	"t958f86": {
+		"zh-cn": "新增文章分类",
+		"en": "New article categories added"
+	},
+	"3ar8rb6": {
+		"zh-cn": "编辑文章分类",
+		"en": "Edit article categories"
+	},
+	"av333s4": {
+		"zh-cn": "分类名称",
+		"en": "Classification name"
+	},
+	"mnzxr37": {
+		"zh-cn": "请输入分类名称",
+		"en": "Please enter the category name"
+	},
+	"av5vxy4": {
+		"zh-cn": "分类描述",
+		"en": "Classification description"
+	},
+	"mnx4wx7": {
+		"zh-cn": "请输入分类描述",
+		"en": "Please enter the category description"
 	}
 }
