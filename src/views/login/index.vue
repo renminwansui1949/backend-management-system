@@ -73,7 +73,15 @@
         </a-form>
       </div>
 
-      <div class="login-form__footer">Copyright © 2025 SanYuan</div>
+      <div class="login-form__footer">
+        <p>Copyright © 2025 SanYuan</p>
+        <p>
+          <span>ICP备案号:</span>
+          <span
+            ><a href="https://beian.miit.gov.cn/#/Integrated/index">豫ICP备2025141202号-1</a></span
+          >
+        </p>
+      </div>
     </div>
   </div>
 </template>
