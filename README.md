@@ -1,26 +1,6 @@
 # chinacjf-admin
 
-> 帮助你快速实现一个系统，里面的一些封装非常适合学习，助各位前程似锦。
-
-## 演示地址：
-
-[https://chinacjf.website/](https://chinacjf.website/) admin 用户名：admin 密码：123456
-
-## 项目地址
-
-[前端仓库项目https://gitee.com/hejingyuan01/open-sanyuan-web](https://gitee.com/hejingyuan01/open-sanyuan-web)
-[后端仓库项目https://gitee.com/hejingyuan01/open-sanyuan-services](https://gitee.com/hejingyuan01/open-sanyuan-services)
-
-## 演示截图
-
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
-  <img src="https://chinacjf.website/md-image/image1.png" style="width: 100%; height: auto;" />
-  <img src="https://chinacjf.website/md-image/image2.png" style="width: 100%; height: auto;" />
-  <img src="https://chinacjf.website/md-image/image3.png" style="width: 100%; height: auto;" />
-  <img src="https://chinacjf.website/md-image/image4.png" style="width: 100%; height: auto;" />
-  <img src="https://chinacjf.website/md-image/image5.png" style="width: 100%; height: auto;" />
-  <img src="https://chinacjf.website/md-image/image6.png" style="width: 100%; height: auto;" />
-</div>
+> 帮助你快速实现一个系统。
 
 ## 功能介绍
 
@@ -38,13 +18,6 @@
 - 支持路由缓存
 - 支持菜单外链、内嵌自定义
 - 支持两种标签栏定制
-
-## 组件封装以及三方插件
-
-> 本项目为了简单好用，并没有什么过渡的封装组件，为了更好的适配主题更改，只写了几个布局包装的组件。需要什么组件全凭你自己定义。
-
-- 初衷是为了更好接受框架，并没有因为什么乱七八糟的东西，等后面如果用户需要的时候再封装。
-
 ```json
 // package.json
  "dependencies": {
