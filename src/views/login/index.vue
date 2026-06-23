@@ -74,7 +74,7 @@
       </div>
 
       <div class="login-form__footer">
-        <p>Copyright © 2025 SanYuan</p>
+        <p>Copyright © 2025 chinacjf</p>
         <p>
           <span>ICP备案号:</span>
           <span

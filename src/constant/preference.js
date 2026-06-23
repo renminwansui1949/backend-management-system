@@ -4,7 +4,7 @@ export const getPreferenceConfig = () => {
       /**
        * 应用标题
        */
-      title: '三原管理系统',
+      title: 'chinacjf管理系统',
       /**
        * 路由过渡动画名称
        */

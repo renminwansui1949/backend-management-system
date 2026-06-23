@@ -40,8 +40,8 @@
 		"en": "Log in"
 	},
 	"n1h356": {
-		"zh-cn": "三原管理系统",
-		"en": "Sanyuan Management System"
+		"zh-cn": "chinacjf管理系统",
+		"en": "Chinacjf Management System"
 	},
 	"hrya2": {
 		"zh-cn": "提醒",
@@ -1108,8 +1108,8 @@
 		"en": "Access the default passed parameters of the route, such as: '{\"id\": 1, \"name\": \"ry\"}'"
 	},
 	"bnbamh18": {
-		"zh-cn": "访问路由的默认传递参数，如：`{\"id\": 1, \"name\": \"sanyuan\"}`",
-		"en": "Access the default passed parameters of the route, such as: '{\"id\": 1, \"name\": \"sanyuan\"}'"
+		"zh-cn": "访问路由的默认传递参数，如：`{\"id\": 1, \"name\": \"chinacjf\"}`",
+		"en": "Access the default passed parameters of the route, such as: '{\"id\": 1, \"name\": \"chinacjf\"}'"
 	},
 	"22v1il15": {
 		"zh-cn": "选择是则会被`keep-alive`缓存，需要匹配组件的`name`和地址保持一致",
@@ -1208,23 +1208,23 @@
 		"en": "For the simulated data, what you input is:"
 	},
 	"2xfskh8": {
-		"zh-cn": "三原后台管理系统",
-		"en": "Sanyuan back-end Management System"
+		"zh-cn": "chinacjf后台管理系统",
+		"en": "Chinacjf back-end Management System"
 	},
 	"2xc5718": {
-		"zh-cn": "三原后台管理框架",
-		"en": "Sanyuan's back-end management framework"
+		"zh-cn": "chinacjf后台管理框架",
+		"en": "Chinacjf's back-end management framework"
 	},
 	"lpmyyd4k": {
 		"zh-cn": "一直想做一款后台管理系统，看了很多优秀的开源项目但是发现没有合适自己的。于是利用空闲休息时间开始自己写一套后台系统。如此有了若依管理系统，她可以用于所有的Web应用程序，如网站管理后台，网站会员中心，CMS，CRM，OA等等，当然，您也可以对她进行深度定制，以做出更强系统。所有前端后台代码封装过后十分精简易上手，出错概率低",
 		"en": "I've always wanted to develop a back-end management system. I've looked at many excellent open-source projects, but I found no one suitable for me. So I took advantage of my spare time to start writing a set of background systems by myself. With the Ruoyi management system, it can be used in all Web applications, such as website management backends, website member centers, CMS, CRM, OA, etc. Of course, you can also deeply customize it to create a more powerful system. All front-end and back-end codes are encapsulated to be very concise and easy to use, with a low probability of errors"
 	},
 	"y6id8z4k": {
-		"zh-cn": "一直想做一款后台管理系统，看了很多优秀的开源项目但是发现没有合适自己的。于是利用空闲休息时间开始自己写一套后台系统。如此有了三原管理系统，她可以用于所有的Web应用程序，如网站管理后台，网站会员中心，CMS，CRM，OA等等，当然，您也可以对她进行深度定制，以做出更强系统。所有前端后台代码封装过后十分精简易上手，出错概率低",
+		"zh-cn": "一直想做一款后台管理系统，看了很多优秀的开源项目但是发现没有合适自己的。于是利用空闲休息时间开始自己写一套后台系统。如此有了chinacjf管理系统，她可以用于所有的Web应用程序，如网站管理后台，网站会员中心，CMS，CRM，OA等等，当然，您也可以对她进行深度定制，以做出更强系统。所有前端后台代码封装过后十分精简易上手，出错概率低",
 		"en": "I've always wanted to develop a back-end management system. I've looked at many excellent open-source projects, but I found no one suitable for me. So I took advantage of my spare time to start writing a set of background systems by myself. With the Sanyuan Management System in place, it can be applied to all Web applications, such as website management backends, website member centers, CMS, CRM, OA, etc. Of course, you can also deeply customize it to create a more powerful system. All front-end and back-end codes are encapsulated to be very concise and easy to use, with a low probability of errors"
 	},
 	"5v3k4x4l": {
-		"zh-cn": "一直想做一款后台管理系统，看了很多优秀的开源项目但是发现没有合适自己的。于是利用空闲休息时间开始自己写一套后台系统。如此有了三原管理系统，她可以用于所有的Web应用程序，如网站管理后台，网站会员中心，CMS，CRM，OA等等，当然，您也可以对她进行深度定制，以做出更强系统。所有前端后台代码封装过后十分精简易上手，出错概率低。",
+		"zh-cn": "一直想做一款后台管理系统，看了很多优秀的开源项目但是发现没有合适自己的。于是利用空闲休息时间开始自己写一套后台系统。如此有了chinacjf管理系统，她可以用于所有的Web应用程序，如网站管理后台，网站会员中心，CMS，CRM，OA等等，当然，您也可以对她进行深度定制，以做出更强系统。所有前端后台代码封装过后十分精简易上手，出错概率低。",
 		"en": "I've always wanted to develop a back-end management system. I've looked at many excellent open-source projects, but I found no one suitable for me. So I took advantage of my spare time to start writing a set of background systems by myself. With the Sanyuan Management System in place, it can be applied to all Web applications, such as website management backends, website member centers, CMS, CRM, OA, etc. Of course, you can also deeply customize it to create a more powerful system. All front-end and back-end codes are encapsulated to be very concise and easy to use, with a low probability of errors."
 	},
 	"sojero6": {
@@ -1272,15 +1272,15 @@
 		"en": "Donation support"
 	},
 	"qzkafca": {
-		"zh-cn": "1、三原系统正式发布",
-		"en": "The Sanyuan System has been officially released"
+		"zh-cn": "1、chinacjf系统正式发布",
+		"en": "The Chinacjf System has been officially released"
 	},
 	"3oilab4r": {
-		"zh-cn": "一直想做一款后台管理系统，看了很多优秀的开源项目但是发现没有合适自己的。于是利用空闲休息时间开始自己写一套后台系统。如此有了三原管理系统，她可以用于所有的Web应用程序，如网站管理后台，网站会员中心，CMS，CRM，OA等等，当然，您也可以对她进行深度定制，以做出更强系统。所有前端后台代码封装过后十分精简易上手，出错概率低。系统设计参考：",
+		"zh-cn": "一直想做一款后台管理系统，看了很多优秀的开源项目但是发现没有合适自己的。于是利用空闲休息时间开始自己写一套后台系统。如此有了chinacjf管理系统，她可以用于所有的Web应用程序，如网站管理后台，网站会员中心，CMS，CRM，OA等等，当然，您也可以对她进行深度定制，以做出更强系统。所有前端后台代码封装过后十分精简易上手，出错概率低。系统设计参考：",
 		"en": "I've always wanted to develop a back-end management system. I've looked at many excellent open-source projects, but I found no one suitable for me. So I took advantage of my spare time to start writing a set of background systems by myself. With the Sanyuan Management System in place, it can be applied to all Web applications, such as website management backends, website member centers, CMS, CRM, OA, etc. Of course, you can also deeply customize it to create a more powerful system. All front-end and back-end codes are encapsulated to be very concise and easy to use, with a low probability of errors. System design reference"
 	},
 	"jmkg5e4v": {
-		"zh-cn": "一直想做一款后台管理系统，看了很多优秀的开源项目但是发现没有合适自己的。于是利用空闲休息时间开始自己写一套后台系统。如此有了三原管理系统，她可以用于所有的Web应用程序，如网站管理后台，网站会员中心，CMS，CRM，OA等等，当然，您也可以对她进行深度定制，以做出更强系统。所有前端后台代码封装过后十分精简易上手，出错概率低。系统设计参考开源项目：",
+		"zh-cn": "一直想做一款后台管理系统，看了很多优秀的开源项目但是发现没有合适自己的。于是利用空闲休息时间开始自己写一套后台系统。如此有了chinacjf管理系统，她可以用于所有的Web应用程序，如网站管理后台，网站会员中心，CMS，CRM，OA等等，当然，您也可以对她进行深度定制，以做出更强系统。所有前端后台代码封装过后十分精简易上手，出错概率低。系统设计参考开源项目：",
 		"en": "I've always wanted to develop a back-end management system. I've looked at many excellent open-source projects, but I found no one suitable for me. So I took advantage of my spare time to start writing a set of background systems by myself. With the Sanyuan Management System in place, it can be applied to all Web applications, such as website management backends, website member centers, CMS, CRM, OA, etc. Of course, you can also deeply customize it to create a more powerful system. All front-end and back-end codes are encapsulated to be very concise and easy to use, with a low probability of errors. System design reference: Open source projects"
 	},
 	"imi9q57": {
@@ -1336,7 +1336,7 @@
 		"en": "Failure"
 	},
 	"uuel5u4w": {
-		"zh-cn": "一直想做一款后台管理系统，看了很多优秀的开源项目但是发现没有合适自己的。于是利用空闲休息时间开始自己写一套后台系统。如此有了三原管理系统，她可以用于所有的Web应用程序，如网站管理后台，网站会员中心，CMS，CRM，OA等等，当然，您也可以对她进行深度定制，以做出更强系统。所有前端后台代码封装过后十分精简易上手，出错概率低。系统设计参考开源项目：",
+		"zh-cn": "一直想做一款后台管理系统，看了很多优秀的开源项目但是发现没有合适自己的。于是利用空闲休息时间开始自己写一套后台系统。如此有了chinacjf管理系统，她可以用于所有的Web应用程序，如网站管理后台，网站会员中心，CMS，CRM，OA等等，当然，您也可以对她进行深度定制，以做出更强系统。所有前端后台代码封装过后十分精简易上手，出错概率低。系统设计参考开源项目：",
 		"en": "I've always wanted to develop a back-end management system. I've looked at many excellent open-source projects, but I found no one suitable for me. So I took advantage of my spare time to start writing a set of background systems by myself. With the Sanyuan Management System in place, it can be applied to all Web applications, such as website management backends, website member centers, CMS, CRM, OA, etc. Of course, you can also deeply customize it to create a more powerful system. All front-end and back-end codes are encapsulated to be very concise and easy to use, with a low probability of errors. System design reference: Open source projects"
 	},
 	"vzd666": {

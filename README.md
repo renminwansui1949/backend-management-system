@@ -1,10 +1,10 @@
-# sanyuan-admin
+# chinacjf-admin
 
 > 帮助你快速实现一个系统，里面的一些封装非常适合学习，助各位前程似锦。
 
 ## 演示地址：
 
-[https://sanyuan.website/](https://sanyuan.website/) admin 用户名：admin 密码：123456
+[https://chinacjf.website/](https://chinacjf.website/) admin 用户名：admin 密码：123456
 
 ## 项目地址
 
@@ -14,12 +14,12 @@
 ## 演示截图
 
 <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
-  <img src="https://sanyuan.website/md-image/image1.png" style="width: 100%; height: auto;" />
-  <img src="https://sanyuan.website/md-image/image2.png" style="width: 100%; height: auto;" />
-  <img src="https://sanyuan.website/md-image/image3.png" style="width: 100%; height: auto;" />
-  <img src="https://sanyuan.website/md-image/image4.png" style="width: 100%; height: auto;" />
-  <img src="https://sanyuan.website/md-image/image5.png" style="width: 100%; height: auto;" />
-  <img src="https://sanyuan.website/md-image/image6.png" style="width: 100%; height: auto;" />
+  <img src="https://chinacjf.website/md-image/image1.png" style="width: 100%; height: auto;" />
+  <img src="https://chinacjf.website/md-image/image2.png" style="width: 100%; height: auto;" />
+  <img src="https://chinacjf.website/md-image/image3.png" style="width: 100%; height: auto;" />
+  <img src="https://chinacjf.website/md-image/image4.png" style="width: 100%; height: auto;" />
+  <img src="https://chinacjf.website/md-image/image5.png" style="width: 100%; height: auto;" />
+  <img src="https://chinacjf.website/md-image/image6.png" style="width: 100%; height: auto;" />
 </div>
 
 ## 功能介绍

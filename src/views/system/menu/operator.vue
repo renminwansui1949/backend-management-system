@@ -242,7 +242,7 @@
               <div>
                 <a-tooltip placement="top">
                   <template #title>
-                    <span>访问路由的默认传递参数，如：`{"id": 1, "name": "sanyuan"}`</span>
+                    <span>访问路由的默认传递参数，如：`{"id": 1, "name": "chinacjf"}`</span>
                   </template>
                   <AntdIcons.QuestionCircleFilled />
                 </a-tooltip>

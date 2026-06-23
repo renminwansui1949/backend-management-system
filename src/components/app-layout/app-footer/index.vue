@@ -4,7 +4,7 @@
     :class="{ 'app-footer--fixed': layoutStore.layoutConfig.footerFixed }"
     v-show="layoutStore.layoutConfig.showFooter"
   >
-    Copyright © 2025 SanYuan
+    Copyright © 2025 chinacjf
   </div>
 </template>
 

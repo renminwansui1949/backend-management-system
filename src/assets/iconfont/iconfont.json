@@ -1,9 +1,9 @@
 {
   "id": "5092636",
-  "name": "sanyuan-admin",
+  "name": "chinacjf-admin",
   "font_family": "iconfont",
   "css_prefix_text": "icon-",
-  "description": "用于三原后台管理系用的图标",
+  "description": "用于chinacjf后台管理系用的图标",
   "glyphs": [
     {
       "icon_id": "3677282",

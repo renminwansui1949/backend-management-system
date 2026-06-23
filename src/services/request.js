@@ -1,5 +1,6 @@
 import axios from 'axios'
 import { message as antvMessage } from 'ant-design-vue'
+import { mockMap } from '@/mock'
 
 // 创建实例
 const request = axios.create({
@@ -9,6 +10,24 @@ const request = axios.create({
     'Content-Type': 'application/json',
   },
 })
+
+request.interceptors.request.use(
+  (config) => {
+    const url = config.url.replace(config.baseURL || '', '')
+    const mock = mockMap[url]
+    if (mock) {
+      config.adapter = () => {
+        return new Promise((resolve) => {
+          setTimeout(() => {
+            resolve({ data: mock, status: 200, statusText: 'OK', headers: {}, config })
+          }, 200)
+        })
+      }
+    }
+    return config
+  },
+  (error) => Promise.reject(error),
+)
 
 // 请求队列（用于取消请求）
 const pendingRequests = new Map()
